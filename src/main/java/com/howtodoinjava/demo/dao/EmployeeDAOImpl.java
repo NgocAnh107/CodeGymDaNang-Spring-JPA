@@ -9,7 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 import com.howtodoinjava.demo.model.EmployeeEntity;
  
 @Repository
-@Transactional
 public class EmployeeDAOImpl implements EmployeeDao 
 {
     @PersistenceContext
